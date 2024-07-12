@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "armando-bossio-proyecto1"
+version = "0.1.0"
+description = "Proyecto 1 para el seminario de programación de la maestria en inteligencia de negocios"
+authors = ["ArmandoJBR <ajose5945@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.0.0"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
